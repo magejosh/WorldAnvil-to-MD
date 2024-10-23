@@ -11,7 +11,7 @@ If you're reading this, we're probably of a like mind, so I'll shout out two thi
 
 ## Using the script
 
-All configs have been moved to configs.yaml for easy alteration/use.
+All configs have been moved to config.yaml for easy alteration/use.
 The key variables you need to edit are:
 ```
 source_directory = 'World-Anvil-Export'
@@ -65,4 +65,10 @@ A quick rundown on how it's done:
 5. You can leave "Include Worlds" blank to export everthing, or specify a world name, then click Start
 6. Once it is completed you will be emailed your world export
 
+OG Coder-
+Nynir:
 <a href="https://www.buymeacoffee.com/nynir" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+Contributors-
+magejosh:
+<a href="https://www.buymeacoffee.com/magejosh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
