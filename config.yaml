@@ -1,0 +1,11 @@
+version: 1.0
+DEBUG: False
+source_directory: 'World-Anvil-Export'  # Path to the folder with your World Anvil exports
+destination_directory: 'World-Anvil-Output'  # Path for the formatted Markdown files
+obsidian_resource_folder: 'images'  # Folder to store downloaded images
+attempt_bbcode: True
+content_tags_to_extract:
+  - title
+  - content
+image_search_pattern: 'https?://(?:[a-zA-Z0-9.-]+/)+uploads/images/[a-zA-Z0-9./_-]+|/uploads/images/[a-zA-Z0-9./_-]+'  # Regex pattern to find image URLs
+base_url: 'https://worldanvil.com'  # Correct base URL for image downloads

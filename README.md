@@ -11,6 +11,7 @@ If you're reading this, we're probably of a like mind, so I'll shout out two thi
 
 ## Using the script
 
+All configs have been moved to configs.yaml for easy alteration/use.
 The key variables you need to edit are:
 ```
 source_directory = 'World-Anvil-Export'
@@ -25,7 +26,12 @@ attempt_bbcode = True
 ``obsidian_resource_folder`` is where the images will be stored
 ``attempt_bbcode`` determines whether or not it will attempt to convert BBCode to Markdown... it works sometimes, and probably is better than not doing so, but it isn't perfect
 
-Once these variables are set run the script with Python and it will print output when it is done.
+Once these variables are set run the script with Python and it will print output when it is done. If using Windows, you may instead just use the run.bat file to easily run the script. 
+Images in Obsidian seem to have issues if not in png format, so the new c2png.py script was added to easily convert all files to png format. It will not delete the non-png originals though, that is on the user to decide to do. The command to use the image converter script is:
+```
+python c2png.py -all /images
+```
+This assumes you are running the command from within the project folder root, with the venv activated. If not, or don't know how to do so, use the imgFIX.bat to automatically do it for you, as long as your configs are using the default directories. 
 
 ## Sample file structire
 
